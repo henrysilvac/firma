@@ -146,31 +146,31 @@
         <div id="signature-wrapper">
             <!-- INICIO CÓDIGO DE FIRMA -->
             <div id="signature">
-                <table cellpadding="0" cellspacing="0" border="0" style="font-family:Arial, Helvetica, sans-serif; color:#1f1f1f; background-image:url('https://seo.pe/wp-content/uploads/fondo-scaled.jpg'); background-repeat:no-repeat; background-position:right bottom; background-size:cover;">
+                <table cellpadding="0" cellspacing="0" border="0" width="850" style="width:850px; min-width:850px; font-family:Arial, Helvetica, sans-serif; color:#1f1f1f; background-image:url('https://seo.pe/wp-content/uploads/fondo-scaled.jpg'); background-repeat:no-repeat; background-position:right bottom; background-size:cover; background-color:#ffffff;">
                   <tr>
                 
                     <!-- ISOTIPO -->
-                    <td style="padding-right:40px; padding-left: 10px; vertical-align:middle;">
+                    <td width="220" style="width:220px; padding-right:20px; padding-left: 20px; vertical-align:middle;">
                       <img src="https://seo.pe/wp-content/uploads/Isotipo-scaled.png" width="180" style="display:block; border:0;" alt="Capybara">
                     </td>
                 
                     <!-- DATOS -->
-                    <td style="border-left:4px solid #009fe3; padding:70px 50px 20px 24px; vertical-align:top;">
+                    <td width="360" style="width:360px; border-left:4px solid #009fe3; padding:60px 20px 20px 24px; vertical-align:top;">
                 
                       <!-- NOMBRE -->
-                      <div id="sigName" style="font-size:18px; font-weight:bold; line-height:1.2; margin-bottom:2px;">
+                      <div id="sigName" style="font-size:18px; font-weight:bold; line-height:1.2; margin-bottom:2px; margin-top:0; color:#1f1f1f;">
                         Nombre Apellido
                       </div>
                 
                       <!-- CARGO -->
-                      <div id="sigTitle" style="font-size:14px; color:#555; margin-bottom:10px;">
+                      <div id="sigTitle" style="font-size:14px; color:#555555; margin-bottom:10px; margin-top:0;">
                         CEO
                       </div>
                 
                       <!-- LINEA -->
-                      <table cellpadding="0" cellspacing="0" width="60" style="margin-bottom:14px;">
+                      <table cellpadding="0" cellspacing="0" width="60" style="margin-bottom:14px; width:60px;">
                         <tr>
-                          <td style="height:3px; background:#0b2c3d;"></td>
+                          <td style="height:3px; background:#0b2c3d; line-height:3px; font-size:3px;">&nbsp;</td>
                         </tr>
                       </table>
                 
@@ -178,32 +178,32 @@
                       <table cellpadding="0" cellspacing="0" style="font-size:13px; line-height:1.8; margin-top:6px;">
                         
                         <tr>
-                          <td width="26" valign="top">
+                          <td width="26" valign="top" style="width:26px;">
                             <img src="https://seo.pe/wp-content/uploads/telefono.png" width="50" style="display:block;">
                           </td>
                           <td>
-                            <a href="tel:+51949435029" id="tel-link" style="color:#1f1f1f; text-decoration:none;">
-                              <span id="tel">+51 949 435 029</span>
+                            <a href="tel:+51949435029" id="tel-link" style="color:#1f1f1f !important; text-decoration:none !important; font-weight:normal;">
+                              <span id="tel" style="color:#1f1f1f; text-decoration:none;">+51 949 435 029</span>
                             </a>
                           </td>
                         </tr>
                 
                         <tr>
-                          <td valign="top">
+                          <td valign="top" width="26" style="width:26px;">
                             <img src="https://seo.pe/wp-content/uploads/web.png" width="50" style="display:block;">
                           </td>
                           <td>
-                            <a href="https://seo.pe" id="sigURL" style="color:#1f1f1f; text-decoration:none;">
-                              seo.pe
+                            <a href="https://seo.pe" id="sigURL" style="color:#1f1f1f !important; text-decoration:none !important; font-weight:normal;">
+                              <span style="color:#1f1f1f; text-decoration:none;">seo.pe</span>
                             </a>
                           </td>
                         </tr>
                 
                         <tr>
-                          <td valign="top">
+                          <td valign="top" width="26" style="width:26px;">
                             <img src="https://seo.pe/wp-content/uploads/ubicacion.png" width="50" style="display:block;">
                           </td>
-                          <td id="addr">
+                          <td id="addr" style="color:#1f1f1f;">
                             Martín de Murua 150 Of. 1307<br>
                             Plexus Centro Empresarial<br>
                             San Miguel, Lima
@@ -215,9 +215,9 @@
                     </td>
                 
                     <!-- LOGO + REDES -->
-                    <td style="border-left:4px solid #009fe3; padding-left:24px; padding-right:20px; vertical-align:middle;">
+                    <td width="270" style="width:270px; border-left:4px solid #009fe3; padding-left:20px; padding-right:20px; vertical-align:middle;">
                 
-                      <table cellpadding="0" cellspacing="0" border="0" align="center">
+                      <table cellpadding="0" cellspacing="0" border="0" align="center" width="100%">
                         <tr>
                           <td align="center" style="padding-bottom:14px;">
                             <img src="https://seo.pe/wp-content/uploads/Logotipo.png" width="200" style="display:block; border:0;" alt="Capybara SEO">
