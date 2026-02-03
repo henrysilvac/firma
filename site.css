@@ -1,0 +1,100 @@
+/* Configuración General del Generador */
+body, td {
+	font-size: 14px;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #1f1f1f;
+	background-color: #f9f9f9;
+	margin: 20px;
+}
+
+h1 {
+	font-size: 22px;
+	margin-bottom: 20px;
+	color: #0b2c3d;
+}
+
+/* Formulario de Parámetros */
+div.label {
+	font-size: 11px;
+	font-weight: bold;
+	color: #404040;
+	margin-bottom: 4px;
+	text-transform: uppercase;
+}
+
+div.editor {
+	margin-bottom: 15px;
+}
+
+input[type=text], select {
+	width: 100%;
+	max-width: 300px;
+	padding: 8px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	color: #4f5050;
+}
+
+/* Contenedor de la Firma Generada */
+#signature {
+	background-color: #ffffff;
+	padding: 0;
+	display: inline-block;
+	border: 1px solid #e0e0e0;
+	box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+	margin-top: 10px;
+}
+
+/* Botones de Acción */
+.actions {
+	margin: 20px 0;
+}
+
+button {
+	padding: 12px 24px;
+	font-size: 14px;
+	font-weight: bold;
+	cursor: pointer;
+	border-radius: 4px;
+	border: none;
+	transition: background 0.3s;
+}
+
+#btnCreateSignature {
+	background-color: #009fe3;
+	color: white;
+}
+
+#btnCreateSignature:hover {
+	background-color: #007bb1;
+}
+
+#btnCopySignature {
+	background-color: #0b2c3d;
+	color: white;
+	display: block;
+}
+
+#btnCopySignature:hover {
+	background-color: #16435a;
+}
+
+/* Ajustes para los enlaces dentro de la firma */
+#signature a {
+	text-decoration: none;
+}
+
+/* Separador */
+hr {
+	border: 0;
+	border-top: 1px solid #ddd;
+	margin: 40px 0;
+}
+
+/* Responsividad simple para el visualizador */
+@media (max-width: 600px) {
+	#signature {
+		overflow-x: scroll;
+		max-width: 100%;
+	}
+}
