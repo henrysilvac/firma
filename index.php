@@ -146,7 +146,8 @@
         <div id="signature-wrapper">
             <!-- INICIO CÓDIGO DE FIRMA -->
             <div id="signature">
-                <table cellpadding="0" cellspacing="0" border="0" width="850" style="width:850px; min-width:850px; font-family:Arial, Helvetica, sans-serif; color:#1f1f1f; background-image:url('https://seo.pe/wp-content/uploads/fondo-scaled.jpg'); background-repeat:no-repeat; background-position:right bottom; background-size:cover; background-color:#ffffff;">
+                <!-- Ajustes clave: height="290", background-size: 100% 100%, background-position: center bottom -->
+                <table cellpadding="0" cellspacing="0" border="0" width="850" height="290" style="width:850px; min-width:850px; height:290px; font-family:Arial, Helvetica, sans-serif; color:#1f1f1f; background-image:url('https://seo.pe/wp-content/uploads/fondo-scaled.jpg'); background-repeat:no-repeat; background-position:center bottom; background-size:100% 100%; background-color:#ffffff;">
                   <tr>
                 
                     <!-- ISOTIPO -->
@@ -155,7 +156,7 @@
                     </td>
                 
                     <!-- DATOS -->
-                    <td width="360" style="width:360px; border-left:4px solid #009fe3; padding:60px 20px 20px 24px; vertical-align:top;">
+                    <td width="360" style="width:360px; border-left:4px solid #009fe3; padding:50px 20px 30px 24px; vertical-align:top;">
                 
                       <!-- NOMBRE -->
                       <div id="sigName" style="font-size:18px; font-weight:bold; line-height:1.2; margin-bottom:2px; margin-top:0; color:#1f1f1f;">
